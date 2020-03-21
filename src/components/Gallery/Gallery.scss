@@ -1,0 +1,29 @@
+.gallery-page {
+  padding: 100px 0;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    color: orange;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+
+  .filter-comments {
+    padding: 25px 0;
+  }
+
+  .comments {
+    width: 500px;
+  }
+}

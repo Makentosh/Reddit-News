@@ -1,0 +1,23 @@
+.gallery-item {
+  padding: 20px;
+  background: lightblue;
+  width: 28%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  &__image {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__comments {
+    margin-bottom: 20px;
+  }
+
+  &__link {
+
+  }
+}
