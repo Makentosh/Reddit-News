@@ -61,7 +61,6 @@ class Gallery extends React.Component {
         .filter(item => item.data.num_comments >= minComments)
         .sort((a,b) => b.data.num_comments - a.data.num_comments);
 
-
     return (
       <div className="gallery-page">
         <div className="gallery-page__container">

@@ -11,7 +11,7 @@ const GalleryItem = ({data}) => {
         {data.title}
       </div>
       <div className="gallery-item__comments">
-        Number of comments {data.num_comments}
+        Comment count: {data.num_comments}
       </div>
       <a href={`https://www.reddit.com/${data.permalink}`}
          target="_blank"
